@@ -1,0 +1,99 @@
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  width: 350px;
+  text-align: center;
+  border: 1px solid #1a3c6e; /* Dark Blue from Logo */
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #1a3c6e;
+  margin-bottom: 5px;
+}
+
+p.subtitle {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 0.85rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.otp-container {
+  display: flex;
+  gap: 5px;
+}
+
+.otp-btn {
+  background-color: #f0ad4e;
+  border: none;
+  color: white;
+  padding: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.main-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #1a3c6e; /* Logo Blue */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.main-btn:hover {
+  background-color: #132b4f;
+}
+
+.footer-link {
+  margin-top: 15px;
+  font-size: 0.85rem;
+}
+
+.footer-link span {
+  color: #1a3c6e;
+  cursor: pointer;
+  font-weight: bold;
+}
